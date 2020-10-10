@@ -54,31 +54,31 @@ function load_hisstory() {
     `
     // <div class="row">
     //     <div class="col-md">
-    //         <img src="/img/01.png" height="128px" />
+    //         <img src="img/01.png" height="128px" />
     //     </div>
     //     <div class="col-md">
-    //         <img src="/img/02.png" height="128px" />
+    //         <img src="img/02.png" height="128px" />
     //     </div>
     //     <div class="col-md">
-    //         <img src="/img/03.png" height="128px" />
+    //         <img src="img/03.png" height="128px" />
     //     </div>
     //     <div class="col-md">
-    //         <img src="/img/04.png" height="128px" />
+    //         <img src="img/04.png" height="128px" />
     //     </div>
     // </div>
     // <div class="row">
 
     //     <div class="col-md">
-    //         <img src="/img/01.png" height="128px" />
+    //         <img src="img/01.png" height="128px" />
     //     </div>
     //     <div class="col-md">
-    //         <img src="/img/02.png" height="128px" />
+    //         <img src="img/02.png" height="128px" />
     //     </div>
     //     <div class="col-md">
-    //         <img src="/img/03.png" height="128px" />
+    //         <img src="img/03.png" height="128px" />
     //     </div>
     //     <div class="col-md">
-    //         <img src="/img/04.png" height="128px" />
+    //         <img src="img/04.png" height="128px" />
     //     </div>
     // </div>
 
