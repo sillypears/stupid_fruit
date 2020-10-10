@@ -47,7 +47,9 @@ function load_hisstory() {
                 </a>
             </div>
             <div class="col-md">
-                <img src="img/02.png" height="128px" />
+                <a href="img/02.jpg" data-toggle="lightbox">
+                    <img src="img/02.jpg" height="128px" />
+                </a>
             </div>
             <div class="col-md">
                 <img src="img/03.png" height="128px" />
