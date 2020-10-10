@@ -1,5 +1,9 @@
 (function ($) {
     $('div#content').html(load_home())
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
 })(jQuery);
 
 function toggle(section) {
@@ -38,7 +42,9 @@ function load_hisstory() {
     <div class="text-center">
         <div class="row">
             <div class="col-md">
-                <img src="img/01.jpg" height="128px" />
+                <a href="img/01.jpg" data-toggle="lightbox">
+                    <img src="img/01.jpg" height="128px" />
+                </a>
             </div>
             <div class="col-md">
                 <img src="img/02.png" height="128px" />
