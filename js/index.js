@@ -38,7 +38,7 @@ function load_hisstory() {
     <div class="text-center">
         <div class="row">
             <div class="col-md">
-                <img src="img/01.png" height="128px" />
+                <img src="img/01.jpg" height="128px" />
             </div>
             <div class="col-md">
                 <img src="img/02.png" height="128px" />
