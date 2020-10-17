@@ -54,10 +54,10 @@ function load_hisstory() {
                     <img src="img/02.jpg" height="128px" />
                 </a>
             </div>
-            <div class="col-md">
+            <div class="col-md" data-toggle="lightbox">
                 <img src="img/03.jpg" height="128px" />
             </div>
-            <div class="col-md">
+            <div class="col-md" data-toggle="lightbox">
                 <img src="img/04.jpg" height="128px" />
             </div>
         </div>
