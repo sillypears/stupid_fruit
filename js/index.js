@@ -5,9 +5,19 @@
         $(this).ekkoLightbox();
     });
     window.setInterval(function(){
-        titleChanger()
+        titleChanger();
     }, 400);
+    var originalPageTitle = document.title;
+    var changeTitleTimeout;
+    $(document).on('visibilitychange', (e) => {
+        clearTimeout(changeTitleTimeout)
+        setInterval(changeTitle(originalPageTitle), 200);
+    })
 })(jQuery);
+
+function changeTitle(originalPageTitle) {
+    document.title = document.hidden ? "Please come back :(" : originalPageTitle;
+}
 
 function toggle(section) {
     console.log(section)
@@ -119,3 +129,4 @@ function titleChanger() {
 String.prototype.replaceAt = function(index, replacement) {
     return this.substr(0, index) + replacement + this.substr(index + replacement.length);
 }
+
