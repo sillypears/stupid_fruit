@@ -1,10 +1,10 @@
-(function ($) {
+(function($) {
     $('div#content').html(load_home())
     $(document).on('click', '[data-toggle="lightbox"]', function(event) {
         event.preventDefault();
         $(this).ekkoLightbox();
     });
-    window.setInterval(function(){
+    window.setInterval(function() {
         titleChanger();
     }, 400);
     var originalPageTitle = document.title;
@@ -30,6 +30,7 @@ function toggle(section) {
             break;
         case "hisstory":
             $('div#content').html(load_hisstory())
+
             break;
         default:
             $('div#content').html("da fuq")
@@ -52,69 +53,20 @@ function load_blog() {
 
 function load_hisstory() {
     hisstory = `
-    <div class="text-center">
-        <div class="row">
-            <div class="col-md">
-                <a href="img/01.jpg" data-toggle="lightbox">
-                    <img src="img/01.jpg" height="128px" />
-                </a>
-            </div>
-            <div class="col-md">
-                <a href="img/02.jpg" data-toggle="lightbox">
-                    <img src="img/02.jpg" height="128px" />
-                </a>
-            </div>
-            <div class="col-md">
-                <a href="img/03.jpg" data-toggle="lightbox">
-                    <img src="img/03.jpg" height="128px" />
-                </a>
-            </div>
-            <div class="col-md">
-                <a href="img/04.jpg" data-toggle="lightbox">
-                    <img src="img/04.jpg" height="128px" />
-                </a>
-            </div>
+        <div id="marquee">
+            <p>Honestly just go to Instagram</p>
         </div>
-    </div>
     `
-    // <div class="row">
-    //     <div class="col-md">
-    //         <img src="img/01.png" height="128px" />
-    //     </div>
-    //     <div class="col-md">
-    //         <img src="img/02.png" height="128px" />
-    //     </div>
-    //     <div class="col-md">
-    //         <img src="img/03.png" height="128px" />
-    //     </div>
-    //     <div class="col-md">
-    //         <img src="img/04.png" height="128px" />
-    //     </div>
-    // </div>
-    // <div class="row">
 
-    //     <div class="col-md">
-    //         <img src="img/01.png" height="128px" />
-    //     </div>
-    //     <div class="col-md">
-    //         <img src="img/02.png" height="128px" />
-    //     </div>
-    //     <div class="col-md">
-    //         <img src="img/03.png" height="128px" />
-    //     </div>
-    //     <div class="col-md">
-    //         <img src="img/04.png" height="128px" />
-    //     </div>
-    // </div>
 
     return hisstory
 }
 
 function titleChanger() {
     let curTitle = $('title').html();
-    let rando = Math.floor(Math.random(curTitle.length)*10)
+    let rando = Math.floor(Math.random(curTitle.length) * 10)
     let pick = curTitle[rando]
-    if (pick != " "){
+    if (pick != " ") {
         if (pick === pick.toUpperCase()) {
             pick = pick.toLowerCase()
         } else {
@@ -122,11 +74,10 @@ function titleChanger() {
         }
     }
     newTitle = curTitle.replaceAt(rando, pick)
-    // console.log(`${rando} ${pick} ${newTitle}`)
+        // console.log(`${rando} ${pick} ${newTitle}`)
     $('title').html(newTitle)
 }
 
 String.prototype.replaceAt = function(index, replacement) {
     return this.substr(0, index) + replacement + this.substr(index + replacement.length);
 }
-
