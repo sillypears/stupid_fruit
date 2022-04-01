@@ -26,32 +26,45 @@
 </head>
 
 <body>
-    <h1 class="text-center h1">
-        stupid fruit caps&nbsp;
-        <a href="https://instagram.com/stupidfruitcaps" target="_blank"><img src="img/ig.png" height="32px" width="32px" /></a>
-        <a href="https://docs.google.com/document/d/1mhSVY5Z4vSmV1XNGcZzC-YZkvPnMRc43_F1dxGS1qxE/edit?usp=sharing" target="_blank"><img src="img/gs.png" height="32px" width="32px" /></a>
-    </h1>
-    <hr>
-    <div class="row text-center">
-        <div class=col-md-4>
-            <button class="btn btn-info" type="button" onclick="toggle('home')">home</button>
-        </div>
-        <div class="col-md-4">
-            <button class="btn btn-info" type="button" onclick="toggle('blog')">blog</button>
-        </div>
-        <div class="col-md-4">
-            <button class="btn btn-info" type="button" onclick="toggle('hisstory')">history</button>
-        </div>
-    </div>
-    <hr>
-    <div id="content">
+    <div class="container-fluid">
 
+        <h1 class="text-center h1">
+            stupid fruit caps&nbsp;
+            <a href="https://instagram.com/stupidfruitcaps" target="_blank"><img src="img/ig.png" height="32px" width="32px" /></a>
+            <a href="https://docs.google.com/document/d/1mhSVY5Z4vSmV1XNGcZzC-YZkvPnMRc43_F1dxGS1qxE/edit?usp=sharing" target="_blank"><img src="img/gs.png" height="32px" width="32px" /></a>
+        </h1>
+        <hr>
+        <div class="row text-center">
+            <div class=col-md-3>
+                <button class="btn btn-info" type="button" onclick="toggle('home')">home</button>
+            </div>
+            <div class="col-md-1 finger" style="cursor: pointer;">
+                &nbsp;
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-info" type="button" onclick="toggle('blog')">blog</button>
+            </div>
+            <div class="col-md-2 finger" style="cursor: pointer;">
+                &nbsp;
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-info" type="button" onclick="toggle('hisstory')">history</button>
+            </div>
+        </div>
+        <hr>
+        <div id="content">
+  
+        </div>
+        <div class="text-center">
+            <div class="" id="secret" hidden>secret.
+            </div>
+            <iframe id="vid" hidden class="text-center" width="540" height="316" src="https://www.youtube-nocookie.com/embed/YIqbdnaPcT8?controls=0&autoplay=1" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; gyroscope" ></iframe>    
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
     <script src="js/ekko-lightbox.js"></script>
     <script src="js/index.js"></script>
-    <hidden value="secret."></hidden>
+    <hidden value="secret." ></hidden>
 </body>
-
 </html>

@@ -13,6 +13,17 @@
         clearTimeout(changeTitleTimeout)
         setInterval(changeTitle(originalPageTitle), 200);
     })
+    $('.finger').each(function() { 
+        this.addEventListener('click', function() {
+            console.log('lol')
+            if ($('#secret').prop('hidden') == true) {
+                $('#secret').removeAttr('hidden')
+            }
+            if ($('#vid').prop('hidden') == true) {
+                $('#vid').removeAttr('hidden')
+            }
+        })
+    })
 })(jQuery);
 
 function changeTitle(originalPageTitle) {
@@ -57,8 +68,6 @@ function load_hisstory() {
             <p>Honestly just go to Instagram</p>
         </div>
     `
-
-
     return hisstory
 }
 
