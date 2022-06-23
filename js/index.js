@@ -9,9 +9,14 @@
         clearTimeout(changeTitleTimeout)
         setInterval(changeTitle(originalPageTitle), 200);
     })
+    
     $('.finger').each(function() { 
         this.addEventListener('click', function() {
             console.log('lol')
+            $('#poop').html(`<div class="" id="secret" hidden>secret.
+            </div>
+            <iframe id="vid" hidden class="text-center" width="540" height="316" src="https://www.youtube-nocookie.com/embed/YIqbdnaPcT8?controls=0&autoplay=1" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; gyroscope" ></iframe>    
+            `)
             if ($('#secret').prop('hidden') == true) {
                 $('#secret').removeAttr('hidden')
             }
