@@ -1,9 +1,5 @@
 (function($) {
     $('div#content').html(load_home())
-    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
-    });
     window.setInterval(function() {
         titleChanger();
     }, 400);
@@ -31,7 +27,6 @@ function changeTitle(originalPageTitle) {
 }
 
 function toggle(section) {
-    console.log(section)
     switch (section) {
         case "home":
             $('div#content').html(load_home())
