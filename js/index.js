@@ -1,1 +1,50 @@
-function _0x37d9(){const _0x1c28b2=['#poop','click','div#content','log','lol','title','856458hFSTdl','.finger','floor','8804216wgDVHr','home','154216OdRowv','addEventListener','prototype','72270CQSyha','random','html','2994040QSpgzA','toLowerCase','#vid','da\x20fuq','<div\x20class=\x22text-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20stupid\x20fruit\x20likes\x20to\x20make\x20stupid\x20stuff.\x20maybe\x20they\x20won\x27t\x20even\x20be\x20fruits\x0a\x20\x20\x20\x20</div>','<div\x20class=\x22\x22\x20id=\x22secret\x22\x20hidden>secret.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<iframe\x20id=\x22vid\x22\x20hidden\x20class=\x22text-center\x22\x20width=\x22540\x22\x20height=\x22316\x22\x20src=\x22https://www.youtube-nocookie.com/embed/YIqbdnaPcT8?controls=0&autoplay=1\x22\x20title=\x22YouTube\x20video\x20player\x22\x20frameborder=\x220\x22\x20allow=\x22autoplay;\x20encrypted-media;\x20gyroscope\x22\x20></iframe>\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','#secret','visibilitychange','8WifdmK','each','1150962rtSXYP','hidden','prop','removeAttr','toUpperCase','substr','882758yruBxS'];_0x37d9=function(){return _0x1c28b2;};return _0x37d9();}const _0x455699=_0x3c3a;(function(_0x4224ae,_0x21ae7c){const _0x163842=_0x3c3a,_0x148c17=_0x4224ae();while(!![]){try{const _0x67e30e=-parseInt(_0x163842(0xc4))/0x1+-parseInt(_0x163842(0xb8))/0x2+-parseInt(_0x163842(0xb2))/0x3+-parseInt(_0x163842(0xb0))/0x4*(parseInt(_0x163842(0xc7))/0x5)+-parseInt(_0x163842(0xbf))/0x6+parseInt(_0x163842(0xca))/0x7+parseInt(_0x163842(0xc2))/0x8;if(_0x67e30e===_0x21ae7c)break;else _0x148c17['push'](_0x148c17['shift']());}catch(_0x7673f3){_0x148c17['push'](_0x148c17['shift']());}}}(_0x37d9,0x5c203),function(_0x58e8b0){const _0x5109b2=_0x3c3a;_0x58e8b0(_0x5109b2(0xbb))[_0x5109b2(0xc9)](load_home()),window['setInterval'](function(){titleChanger();},0x190);var _0xbd9639=document['title'],_0x3318d8;_0x58e8b0(document)['on'](_0x5109b2(0xaf),_0x484852=>{clearTimeout(_0x3318d8),setInterval(changeTitle(_0xbd9639),0xc8);}),_0x58e8b0(_0x5109b2(0xc0))[_0x5109b2(0xb1)](function(){const _0x284f3e=_0x5109b2;this[_0x284f3e(0xc5)](_0x284f3e(0xba),function(){const _0x477f80=_0x284f3e;console[_0x477f80(0xbc)](_0x477f80(0xbd)),_0x58e8b0(_0x477f80(0xb9))[_0x477f80(0xc9)](_0x477f80(0xcf)),_0x58e8b0('#secret')[_0x477f80(0xb4)]('hidden')==!![]&&_0x58e8b0(_0x477f80(0xae))['removeAttr'](_0x477f80(0xb3)),_0x58e8b0('#vid')[_0x477f80(0xb4)](_0x477f80(0xb3))==!![]&&_0x58e8b0(_0x477f80(0xcc))[_0x477f80(0xb5)](_0x477f80(0xb3));});});}(jQuery));function changeTitle(_0x312645){const _0x355dc2=_0x3c3a;document[_0x355dc2(0xbe)]=document[_0x355dc2(0xb3)]?'Please\x20come\x20back\x20:(':_0x312645;}function toggle(_0x159618){const _0x5a05ae=_0x3c3a;switch(_0x159618){case _0x5a05ae(0xc3):$(_0x5a05ae(0xbb))[_0x5a05ae(0xc9)](load_home());break;case'blog':$('div#content')[_0x5a05ae(0xc9)](load_blog());break;case'hisstory':$('div#content')[_0x5a05ae(0xc9)](load_hisstory());break;default:$(_0x5a05ae(0xbb))[_0x5a05ae(0xc9)](_0x5a05ae(0xcd));}};function load_home(){return home='<div\x20class=\x22text-center\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22text-uppercase\x20font-weight-bold\x22>recent\x20news</span>:\x20nothing\x20:)\x0a\x20\x20\x20\x20</div>',home;};function load_blog(){const _0x5349bc=_0x3c3a;return blog=_0x5349bc(0xce),blog;}function _0x3c3a(_0x2466e1,_0x55fafa){const _0x37d92f=_0x37d9();return _0x3c3a=function(_0x3c3a17,_0x6fce46){_0x3c3a17=_0x3c3a17-0xae;let _0x438799=_0x37d92f[_0x3c3a17];return _0x438799;},_0x3c3a(_0x2466e1,_0x55fafa);};function load_hisstory(){return hisstory='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22marquee\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>Honestly\x20just\x20go\x20to\x20Instagram</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20',hisstory;}function titleChanger(){const _0x4ed2a1=_0x3c3a;let _0x427e83=$(_0x4ed2a1(0xbe))['html'](),_0x43dd3d=Math[_0x4ed2a1(0xc1)](Math[_0x4ed2a1(0xc8)](_0x427e83['length'])*0xa),_0x4b4b66=_0x427e83[_0x43dd3d];_0x4b4b66!='\x20'&&(_0x4b4b66===_0x4b4b66[_0x4ed2a1(0xb6)]()?_0x4b4b66=_0x4b4b66[_0x4ed2a1(0xcb)]():_0x4b4b66=_0x4b4b66[_0x4ed2a1(0xb6)]()),newTitle=_0x427e83['replaceAt'](_0x43dd3d,_0x4b4b66),$(_0x4ed2a1(0xbe))['html'](newTitle);}String[_0x455699(0xc6)]['replaceAt']=function(_0x38b28d,_0x2a9492){const _0x19e2b8=_0x455699;return this[_0x19e2b8(0xb7)](0x0,_0x38b28d)+_0x2a9492+this[_0x19e2b8(0xb7)](_0x38b28d+_0x2a9492['length']);};
+(function($) {
+    window.setInterval(function () {
+        titleChanger();
+    }, 400);
+    var originalPageTitle = document.title;
+    var changeTitleTimeout;
+    $(document).on('visibilitychange', (e) => {
+        clearTimeout(changeTitleTimeout)
+        setInterval(changeTitle(originalPageTitle), 200);
+    })
+    $('.finger').each(function () {
+        this.addEventListener('click', function () {
+            console.log('lol')
+            if ($('#secret').prop('hidden') == true) {
+                $('#secret').removeAttr('hidden')
+            }
+            if ($('#vid').prop('hidden') == true) {
+                $('#vid').removeAttr('hidden')
+            }
+        })
+    })
+})(jQuery);
+
+String.prototype.replaceAt = function (index, replacement) {
+    return this.substr(0, index) + replacement + this.substr(index + replacement.length);
+}
+
+function changeTitle(originalPageTitle) {
+    document.title = document.hidden ? "Please come back :(" : originalPageTitle;
+}
+
+function titleChanger() {
+    let curTitle = $('title').html();
+    let rando = Math.floor(Math.random(curTitle.length) * 10)
+    let pick = curTitle[rando]
+    if (pick != " ") {
+        if (pick === pick.toUpperCase()) {
+            pick = pick.toLowerCase()
+        } else {
+            pick = pick.toUpperCase()
+        }
+    }
+    newTitle = curTitle.replaceAt(rando, pick)
+    // console.log(`${rando} ${pick} ${newTitle}`)
+    $('title').html(newTitle)
+}
+
+String.prototype.replaceAt = function (index, replacement) {
+    return this.substr(0, index) + replacement + this.substr(index + replacement.length);
+}
