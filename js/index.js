@@ -95,7 +95,7 @@ function toggle(section) {
 
 function load_home() {
     home = `<div class="text-center">
-        <span class="text-uppercase font-weight-bold">recent news</span>: 4/20 sale? :)
+        <span class="text-uppercase font-weight-bold">recent news</span>: July Survey? or a sale :)
     </div>`
     return home
 };
